@@ -1,5 +1,6 @@
 {
   "name": "2framesphotography",
+   "homepage": "https://jervin5.github.io/2FramePhotography2/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

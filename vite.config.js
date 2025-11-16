@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"2framesphotography2/",
+ base: '/2frames/',
   plugins: [react()],
 })
